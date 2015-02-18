@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="llvm" fetch="http://llvm.org/git/" />
+<default revision="master" remote="llvm" sync-j="4" />
+<project path="llvm" name="llvm.git" groups="toolchain" />
+<project path="llvm/projects/compiler-rt" name="compiler-rt.git" groups="toolchain" />
+<project path="llvm/tools/clang" name="clang.git" groups="toolchain" />
+<project path="llvm/tools/clang/tools/clang-tools-extra" name="clang-tools-extra.git" groups="toolchain" />
+</manifest>
